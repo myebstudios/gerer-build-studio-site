@@ -62,6 +62,7 @@ h1 {
   line-height: 1.02;
   letter-spacing: -.073em;
   font-weight: 750;
+  text-wrap: balance;
 }
 h2 { font-size: clamp(1.8rem, 4vw, 2.9rem); line-height: 1.12; letter-spacing: -.055em; }
 h3 { font-size: 1.17rem; line-height: 1.25; letter-spacing: -.025em; }
@@ -119,7 +120,6 @@ p { color: var(--muted); line-height: 1.65; }
   .shell { width: min(640px, calc(100% - 3rem)); }
   .hero, .features { grid-template-columns: 1fr; }
   .hero { gap: 2.5rem; }
-  .desktop-break { display: none; }
   .alpha { align-items: flex-start; flex-direction: column; }
 }
 @media (max-width: 420px) {
