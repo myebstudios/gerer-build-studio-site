@@ -1,0 +1,17 @@
+{
+  "client_id": "https://myebstudios.github.io/gerer-build-studio-site/elevenlabs-oauth-client.json",
+  "client_name": "Gerer Build Studio",
+  "client_uri": "https://myebstudios.github.io/gerer-build-studio-site/",
+  "application_type": "native",
+  "redirect_uris": [
+    "http://127.0.0.1:40293/oauth/elevenlabs"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
